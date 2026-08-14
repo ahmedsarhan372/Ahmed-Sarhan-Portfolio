@@ -48,7 +48,7 @@ window.addEventListener("scroll", function () {
 
 settinggear.addEventListener("click", function () {
   settinglist.classList.remove("translate-x-full");
-  settinggear.classList.add("hidden");
+  settinggear.classList.remove("hidden");
   settingtoggle.classList.add("translate-x-[-320px]");
 });
 
