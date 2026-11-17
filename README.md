@@ -6,13 +6,13 @@ A right-to-left Arabic front-end developer portfolio. The page includes a portfo
 - HTML
 - CSS
 - JavaScript
-- Bootstrap assets
-- Images
+- Image assets
+- Google Fonts and Font Awesome loaded from their CDNs
 
-The repository contains static frontend files; the React, Next.js, and TypeScript references in the page metadata do not indicate that those frameworks are used in this project.
+The repository contains static frontend files. React, Next.js, and TypeScript appear in the page metadata, but are not used by the current implementation.
 
 ## Run locally
-Open `index.html` in a browser. Keep `index.js`, `style.css`, `bootstrap`, and `imgs` in their existing paths.
+Open `index.html` in a browser and keep the referenced local assets in place.
 
 ## Live demo
 https://ahmedsarhan372.github.io/Assignment10/
