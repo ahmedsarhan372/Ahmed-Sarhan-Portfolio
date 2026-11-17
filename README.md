@@ -15,4 +15,4 @@ The repository contains static frontend files. React, Next.js, and TypeScript ap
 Open `index.html` in a browser and keep the referenced local assets in place.
 
 ## Live demo
-https://ahmedsarhan372.github.io/Assignment10/
+https://ahmedsarhan372.github.io/Ahmed-Sarhan-Portfolio/
