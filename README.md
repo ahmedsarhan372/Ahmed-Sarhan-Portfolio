@@ -1,18 +1,19 @@
 # أحمد سرحان | مطور واجهات أمامية
 
-A right-to-left Arabic front-end developer portfolio. The page includes a portfolio gallery, theme and color controls, font choices, and a testimonial carousel.
+مطور واجهات أمامية في بداية مسيرتي، درست تطوير الويب ضمن كورس تدريبي لمدة 6 شهور، وأطبّق ما تعلمته في مشاريع عملية.
 
-## Built with
-- HTML
-- CSS
-- JavaScript
-- Image assets
-- Google Fonts and Font Awesome loaded from their CDNs
+## التقنيات
+HTML · CSS · JavaScript · React · Next.js · Tailwind CSS · Bootstrap
 
-The repository contains static frontend files. React, Next.js, and TypeScript appear in the page metadata, but are not used by the current implementation.
+## مشاريع مختارة
+- [SocialMediaApp](https://github.com/ahmedsarhan372/SocialMediaApp) — تطبيق React يتصل بخدمة API خارجية.
+- [Adasa](https://github.com/ahmedsarhan372/Adasa) — واجهة عقارية تجريبية ببيانات توضيحية.
+- [ContactHub](https://github.com/ahmedsarhan372/ContactHub) — إدارة جهات اتصال مع حفظ محلي.
+- [CRUD-System](https://github.com/ahmedsarhan372/CRUD-System) — واجهة لإدارة البيانات.
+- [Clarity](https://github.com/ahmedsarhan372/Clarity) — لوحة تحكم ببيانات تجريبية.
+- [What's for Dinner](https://github.com/ahmedsarhan372/Whats-For-Dinner)
+- [Muddabir](https://github.com/ahmedsarhan372/Muddabir)
+- [Game Arena](https://github.com/ahmedsarhan372/Game-Arena)
 
-## Run locally
-Open `index.html` in a browser and keep the referenced local assets in place.
-
-## Live demo
-https://ahmedsarhan372.github.io/Ahmed-Sarhan-Portfolio/
+## الموقع
+[معرض الأعمال](https://ahmedsarhan372.github.io/Ahmed-Sarhan-Portfolio/)
