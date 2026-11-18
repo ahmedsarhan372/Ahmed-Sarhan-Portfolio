@@ -13,12 +13,6 @@ let btns = document.querySelectorAll("button");
 let mybtns = document.querySelectorAll(".content button");
 let fontBtns = document.querySelectorAll(".font-option");
 let body = document.querySelector("body");
-let track = document.getElementById("testimonials-carousel");
-let cards = document.querySelectorAll(".testimonial-card");
-let nextBtn = document.getElementById("next-testimonial");
-let prevBtn = document.getElementById("prev-testimonial");
-let indicators = document.querySelectorAll(".carousel-indicator");
-let currentIndex = 0;
 let filterBtns = document.querySelectorAll(".portfolio-filter");
 let portfolioItems = document.querySelectorAll(".portfolio-item");
 let resetBtn = document.getElementById("reset-settings");
@@ -104,59 +98,6 @@ fontBtns.forEach(function (btn) {
     body.classList.add("font-" + font);
   });
 });
-
-function getVisibleCount() {
-  if (window.innerWidth >= 1024) return 3;
-  if (window.innerWidth >= 640) return 2;
-  return 1;
-}
-
-function getMaxIndex() {
-  return cards.length - getVisibleCount();
-}
-
-function updateCarousel() {
-  let maxIndex = getMaxIndex();
-
-  if (currentIndex < 0) currentIndex = 0;
-  if (currentIndex > maxIndex) currentIndex = maxIndex;
-
-  let step = cards[0].offsetWidth;
-  track.style.transform = `translateX(${currentIndex * step}px)`;
-
-  indicators.forEach(function (ind, i) {
-    if (i === currentIndex) {
-      ind.classList.add("active");
-      ind.setAttribute("aria-selected", "true");
-    } else {
-      ind.classList.remove("active");
-      ind.setAttribute("aria-selected", "false");
-    }
-  });
-
-  prevBtn.disabled = currentIndex === maxIndex;
-  nextBtn.disabled = currentIndex === 0;
-}
-
-nextBtn.addEventListener("click", function () {
-  currentIndex++;
-  updateCarousel();
-});
-
-prevBtn.addEventListener("click", function () {
-  currentIndex--;
-  updateCarousel();
-});
-
-indicators.forEach(function (ind) {
-  ind.addEventListener("click", function () {
-    currentIndex = parseInt(ind.getAttribute("data-index"));
-    updateCarousel();
-  });
-});
-
-window.addEventListener("resize", updateCarousel);
-updateCarousel();
 
 let scrollTopBtn = document.getElementById("scroll-to-top");
 
